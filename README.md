@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/41xwrw9c4s2civ2p?svg=true)](https://ci.appveyor.com/project/MKSInc/ajs-hw-5-oop-1-class)
+
 # 5. Домашнее задание к лекции «Прототипы, конструкторы, классы и наследование»
 
 **Важно**: каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.
