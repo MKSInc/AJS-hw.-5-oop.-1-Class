@@ -62,6 +62,13 @@ test('To be the correct damage', () => {
   expect(player.health).toBe(92.5);
 });
 
+test('Do not cause damage when health is equal to zero', () => {
+  const player = new Character('Player', 'Bowerman');
+  player.health = 0;
+  player.damage(10);
+  expect(player.health).toBe(0);
+});
+
 test('With fatal damage, health should not be less than zero', () => {
   const player = new Character('Player', 'Bowerman');
   player.damage(200);
