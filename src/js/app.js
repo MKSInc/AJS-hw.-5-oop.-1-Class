@@ -28,3 +28,6 @@ const magician = new Magician('MagiciaN', 'Magician');
 const daemon = new Daemon('DaemoN', 'Daemon');
 const undead = new Undead('UndeaD', 'Undead');
 const zombie = new Zombie('ZombiE', 'Zombie');
+
+console.log(Character.prototype);
+console.log(Character.prototype.name);
